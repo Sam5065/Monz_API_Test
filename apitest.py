@@ -24,7 +24,7 @@ def get_account_id():
     if response.status_code == 200:
         accounts = response.json()['accounts']
         if accounts:
-            return accounts[0]['id']  # Returns the first account's ID
+            return accounts[0]['id']  #Returns the first account's ID
         else:
             print("No accounts found.")
             return None
@@ -46,7 +46,7 @@ def get_balance(account_id):
         balance_data = response.json()
         balance_in_pennies = balance_data['balance']
         currency = balance_data['currency']
-        balance_in_pounds = balance_in_pennies / 100  # Convert to pounds
+        balance_in_pounds = balance_in_pennies / 100  #Convert to pounds
         print(f"Balance: {balance_in_pounds} {currency}")
     else:
         print(f"Failed to get balance. Status code: {response.status_code}")
