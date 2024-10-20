@@ -22,4 +22,5 @@ To use the `apitest.py` script, follow these steps:
 ### Additional Notes
 
 - Make sure to install the `requests` module.
+- Access token can be found via: https://developers.monzo.com/api/playground
 - More infomation at docs.monzo.com
