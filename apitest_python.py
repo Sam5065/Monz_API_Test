@@ -1,4 +1,4 @@
-#This code is used to get the account balance from the Monzo API
+#This code is used to get the account balance from the Monzo API using python
 #The access token is used to authenticate the user and get the account balance
 #The account ID is used to get the account balance
 #The balance is returned in GBP
